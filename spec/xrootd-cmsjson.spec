@@ -50,26 +50,3 @@ rm -rf $RPM_BUILD_ROOT
 %{_includedir}/XrdCmsTfc.hh
 
 %changelog
-* Thu Nov 29 2012 Brian Bockelman <bbockelm@cse.unl.edu> - 1.5.1-3
-- Move module back into base RPM.
-
-* Mon Nov 12 2012 Brian Bockelman - 1.5.1-1
-- Fix SL6 compilation issues.
-
-* Mon Oct 22 2012 Brian Bockelman <bbockelm@cse.unl.edu> - 1.5-1
-- Switch to cmake.
-- Rebuild against Xrootd 3.3.
-
-* Wed May 18 2011 Brian Bockelman <bbockelm@cse.unl.edu> 1.4.3-1
-- Apply path matching only at the beginning of the path.
-
-* Mon Mar 28 2011 Brian Bockelman <bbockelm@cse.unl.edu> 1.4.2-2
-- Rebuild to reflect the updated RPM names.
-
-* Wed Sep 29 2010 Brian Bockelman <bbockelm@cse.unl.edu> 1.4.2-1
-- Reduce verbosity of the logging.
-- Fix for TFC parsing to better respect rule order; request from Florida.
-
-* Tue Aug 24 2010 Brian Bockelman <bbockelm@cse.unl.edu> 1.4.0-1
-- Break xrootd-cmstfc off into its own standalone RPM.
-
